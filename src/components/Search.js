@@ -12,7 +12,7 @@ const Search = () => {
     setuserInput(e.target.value);
   }
 
-  const handleClick = () => {
+  const handleClick = () => { 
     setActive(!active);
   };
   const fetchData = async () => {
